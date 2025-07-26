@@ -77,4 +77,5 @@ Created visuals:
 
 . Applied consistent layout, colors, borders.
 
-📸 Screenshot Needed: Final Power BI Dashboard Layout
+<img width="1920" height="977" alt="image" src="https://github.com/user-attachments/assets/df79692a-79be-4b35-b55d-7b1a46dc1765" />
+
