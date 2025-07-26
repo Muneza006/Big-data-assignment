@@ -48,7 +48,7 @@ c. Exploratory Data Analysis (EDA) 📊
 
 Descriptive stats: Mean, Median, Std Dev, Quartiles.
 
-Visualizations:
+Visualizations: 
 
 📊 Histogram (Fare Distribution)
 
