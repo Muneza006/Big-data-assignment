@@ -40,9 +40,11 @@ b. Feature Engineering 🏗️
 <img width="1102" height="460" alt="image" src="https://github.com/user-attachments/assets/3f9c8f6c-9c09-49e9-9109-dbbcc4a268fb" />
 
 . Created Peak/Off-Peak Time Indicator.
+<img width="1110" height="264" alt="image" src="https://github.com/user-attachments/assets/67fdb657-bd95-44b7-bbc9-8f7cb980c084" />
 
 . Saved enhanced CSV for Power BI.
-📸 Screenshot Needed: Feature Engineering Code & Output
+<img width="1108" height="101" alt="image" src="https://github.com/user-attachments/assets/ef586f9b-cc04-4af6-934a-2c1dae15ba6f" />
+
 
 c. Exploratory Data Analysis (EDA) 📊
 
