@@ -59,7 +59,6 @@ Visualizations:
 📈 Line Chart (Fare vs Hour)
 
 🥧 Pie Chart (Peak vs Off-Peak)
-📸 Screenshot Needed: Each Visualization (Histogram, Box Plot, Line, Pie)
 
 d. Dashboard Design (Power BI) 🖥️
 
