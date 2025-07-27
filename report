@@ -1,1 +1,80 @@
+# Uber Fares Dataset Analysis Report 📊
 
+## Introduction 📝
+
+The objective of this project is to analyze Uber Fares data to uncover patterns, trends, and operational metrics. Using Python for data preprocessing 🐍 and Power BI for visualization 📈, we aim to deliver actionable insights for ride distributions, time-based behaviors, and geographic ride density.
+
+## Methodology 🛠️
+
+### Data Collection 🗃️
+
+* Dataset Source: Kaggle (Uber Fares Dataset).
+* Loaded the dataset into Python (Pandas) 🐼 for initial inspection.
+
+### Data Cleaning & Preparation 🧹
+
+* Checked dataset structure, dimensions, and data types.
+* Handled missing values by removing null entries.
+* Converted `pickup_datetime` column to proper datetime format.
+* Dropped unnecessary columns (e.g., `Unnamed: 0`, `key`).
+
+### Feature Engineering 🏗️
+
+* Extracted **hour**, **day**, **month**, **weekday** from `pickup_datetime`.
+* Created a **Peak Hour Indicator** (7-9 AM, 5-7 PM as "Peak" ⏰; else "Off-Peak").
+* Saved the enhanced dataset as `uber_fares_enhanced.csv` for Power BI.
+
+### Exploratory Data Analysis (EDA) 🔍
+
+* Generated descriptive statistics (mean, median, mode, std deviation).
+* Visualized fare distributions using:
+
+  * 📊 Histograms
+  * 📦 Box Plots
+  * 📈 Line Charts (Fare vs Hour)
+  * 🥧 Pie Charts (Peak vs Off-Peak)
+
+### Power BI Dashboard Design 🖥️
+
+* Imported the enhanced dataset into Power BI.
+* Created visualizations:
+
+  * 📋 **KPI Card** showing Total Trips.
+  * 📈 **Line Chart** for Fare vs Hour.
+  * 🥧 **Pie Chart** for Peak vs Off-Peak Trips.
+  * 🗺️ **Map Visual** showing Pickup Locations.
+  * 🎛️ **Slicers** for filtering by Passenger Count and Peak Hour.
+* Applied professional layout with consistent color themes and borders 🎨.
+
+### DAX Formulas (Used in Power BI) 🧮
+
+* Calculated Total Fare: `Total Fare = SUM(uber_fares_enhanced[fare_amount])`
+* Average Fare: `Average Fare = AVERAGE(uber_fares_enhanced[fare_amount])`
+* Peak/Off-Peak Trip Counts using COUNTROWS and CALCULATE with filter conditions.
+
+## Key Findings 🔑
+
+* Majority of fares range between 💲5 and 💲20.
+* Peak hours ⏰ show higher fare rates.
+* Off-peak hours 🌙 have higher trip frequencies but lower fare amounts.
+* Central urban areas 🏙️ exhibit the densest ride pickups.
+
+## Recommendations 💡
+
+* Optimize driver availability during peak hours to maximize fare revenues.
+* Consider promotional discounts during off-peak periods to boost trip frequency.
+* Focus marketing strategies on high-demand geographic zones.
+
+## Conclusion 🏁
+
+This project demonstrates how combining Python-based data preprocessing with Power BI visualization can derive valuable business insights. The dashboard offers interactive exploration of fare patterns, temporal trends, and ride distributions for informed decision-making.
+
+---
+
+## Dataset Directory 📂
+
+```
+datasets/
+├── uber_fares_original.csv    # Raw dataset downloaded from Kaggle
+└── uber_fares_enhanced.csv    # Dataset after cleaning & feature engineering
+```
