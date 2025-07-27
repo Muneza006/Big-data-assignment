@@ -1,5 +1,7 @@
 Uber Fares Data Analysis using Power BI
 
+Name: Muneza Pascal
+Id:26630
 📚 Course Information
 
 Course: Introduction to Big Data Analytics (INSY 8413)
@@ -11,6 +13,9 @@ Groups: A
 Assignment Type: 📝 Data Analysis Project
 Dataset: 📊 Uber Fares Dataset (Kaggle)
 Tool: 🛠️ Power BI Desktop
+
+
+
 
    📝 Project Overview
 
